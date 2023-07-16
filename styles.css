@@ -1,0 +1,85 @@
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el héroe */
+  .hero {
+    text-align: center;
+    padding: 100px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para los productos destacados */
+  .featured-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  .contact {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
